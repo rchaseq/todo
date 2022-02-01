@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>To-do List by Rowan</title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <small>Cat animation by <a href="https://github.com/ipenywis/walking-cat-css-animation" target="_blank">Islem Maboud</a></small>
+    
+    <!-- don't use this in production: -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+
+    <h1><center>Rowan's To-do List</center></h1>
+
+    <!-- react component inside this div -->
+    <div id="root"></div>
+
+    <!-- load react -->
+    <script src="https://unpkg.com/react/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js" crossorigin></script>
+
+    <!-- load react component -->
+    <script src="todo.js" defer type="text/babel"></script>        
+    <script src="form.js" defer type="text/babel"></script>    
+    <script src="index.js" defer type="text/babel"></script>
+    <div id="root">
+      <div class="container move">
+        <div class="cat walking"></div>
+  </body>
+  <br>
+  <br>
+</html>
